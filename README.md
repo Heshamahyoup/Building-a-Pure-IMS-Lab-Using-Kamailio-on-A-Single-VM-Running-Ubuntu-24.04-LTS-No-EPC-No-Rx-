@@ -19,7 +19,8 @@ In this tutorial, the software we used listed below along with the function.
 
 ## Topology on a Single Host
 Because all components run on the same machine, we will use the loopback addressing in order to separate network elements logically.
-![IMS Topology](./images/Standalon-IMS-Topology.jpg)
+![IMS Topology]([./images/Standalon-IMS-Topology.jpg](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/blob/main/images/Standalon-IMS-Topology.jpg))
+
 
 |Component|IP/Port/|Host Name|
 |----|----|----|
