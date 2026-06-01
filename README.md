@@ -19,7 +19,9 @@ In this tutorial, the software we used listed below along with the function.
 
 ## Topology on a Single Host
 Because all components run on the same machine, we will use the loopback addressing in order to separate network elements logically.
-![IMS Topology](./images/Standalon-IMS-Topology.jpg)
+
+![](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/blob/main/images/IMS_Topology.png)
+
 
 
 |Component|IP/Port/|Host Name|
@@ -1582,13 +1584,8 @@ And
 ```
 sudo pjsua --config-file /root/b.cfg
 ```
-traces/IMS_UA_registration_trace.pcap
-traces/IMS_UA_registration_trace.pcap
+After getting the trace , open it by wireshark and filter the trace based on this filter "dns or sip or diameter or rtp" and Apply.
+Yow will note the IMS User registeration procedure from [this trace](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/raw/refs/heads/main/traces/IMS_UA_registration_trace.pcap).
 
-
-
-[![Registeration download](./images/wireshark.png)](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/raw/refs/heads/main/traces/IMS_UA_registration_trace.pcap)
-
-![User a Registeration](
-https://github.com/Hesham-Alselwi/hesham-alselwi.github.io/blob/master/assets/images/Standalone_IMS_registration_trace.jpeg)
+![](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/blob/main/images/Standalone_IMS_registration_trace.jpeg)
 
