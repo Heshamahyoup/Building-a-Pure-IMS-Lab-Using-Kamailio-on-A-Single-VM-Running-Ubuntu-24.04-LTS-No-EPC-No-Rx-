@@ -1582,6 +1582,11 @@ And
 ```
 sudo pjsua --config-file /root/b.cfg
 ```
+traces/IMS_UA_registration_trace.pcap
+traces/IMS_UA_registration_trace.pcap
+[Registeration trace download](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/blob/main/traces/IMS_UA_registration_trace.pcap)
+
+[Second download](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/raw/refs/heads/main/traces/traces/IMS_UA_registration_trace.pcap)
 
 ![User a Registeration](
 https://github.com/Hesham-Alselwi/hesham-alselwi.github.io/blob/master/assets/images/Standalone_IMS_registration_trace.jpeg)
