@@ -1589,3 +1589,21 @@ Yow will note the IMS User registeration procedure from [this trace](https://git
 
 ![](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/blob/main/images/Standalone_IMS_registration_trace.jpeg)
 
+<br>
+In order to make a call, you need first to register User a(sip:a@domain.imsprovider.org) and User b(sip:b@domain.imsprovider.org) both in seprated terminal.
+
+Once the two UA have successfully registered, a capture can be launched in a third terminal.
+
+To make a call from b to a, in b's terminal type 'm' and when prompted for the called party ("Make call:"), enter 'sip:b@domain.imsprovider.org'. In a's terminal, the call attempt will show up ("Call 0 state changed to EARLY (180 Ringing)"), and the 180 RINGING is sent to b immediately. In a's terminal, type 'a' to answer,
+and when you see prompt "Answer with code (100-699) (empty to cancel):", type 200 to accept the call.
+
+Media will start flowing bidirectionally, playing (in a loop) the pcm1608m.wav file.
+
+To hangup the call, type h in any of a's terminal or in b's terminal.
+
+**User b Call User a**
+![](https://raw.githubusercontent.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/refs/heads/main/images/User%20b_call_User%20a.png)
+
+
+To download the captured call trace from [here](https://github.com/Heshamahyoup/Building-a-Pure-IMS-Lab-Using-Kamailio-on-A-Single-VM-Running-Ubuntu-24.04-LTS-No-EPC-No-Rx-/raw/refs/heads/main/traces/User%20b_call_User%20a.pcap)
+
