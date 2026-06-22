@@ -14,7 +14,7 @@ In this tutorial, the software we used listed below along with the function.
 |[RTPengine](https://github.com/sipwise/rtpengine)|Proxy for RTP media|
 |[FHoSS](https://github.com/herlesupreeth/FHoSS)|HSS|
 |[bind9](https://gitlab.isc.org/isc-projects/bind9)|DNS Server|
-|[PJSUA](https://gitlab.isc.org/isc-projects/bind9)|User Agent|
+|[PJSUA](https://docs.pjsip.org/)|User Agent|
 |[Java7](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)|Prerequisite for FHoSS|
 
 ## Topology on a Single Host
@@ -1481,7 +1481,7 @@ In order to add the IMS users (sip:b@domain.imsprovider.org and sip:a@domain.ims
 
 You can also refer to this [guid](https://nil.uniza.sk/en/adding-new-user-ims-platform-using-hss-web-gui/).
 
-## Building and installing PJSUA user agent
+## Installing and Building PJSUA user agent
 
 PJSUA is a high-level API and command-line softphone included in the PJSIP Project, which is an open-source multimedia communication library used to build Voice over IP (VoIP) applications.
 
